@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&family=Sora:wght@100;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <title>Document</title>
+</head>
+    <body>
+        <section id="formulario">
+            <h1 class="titulo__principal">CONTROL DE STOCK</h1>
+            <h3>Formulario de ingreso de productos</h3>
+            <div id="alerts">
+            </div>
+                <form>
+                    <input type="number" placeholder="Codigo de Producto" id="codProd"><br><br>
+                    <input type="text" placeholder="Item" id="item"><br><br>
+                    <input type="text" placeholder="Descripción" id="descripcion"><br><br>
+                    <input type="number" placeholder="Cantidad mínima" id="cant_min"><br><br>
+                    <input type="number" placeholder="Cantidad mínima" id="cantMin"><br><br>
+                    <input type="number" placeholder="Importe" id="precio"><br><br>
+                    <label>Activar Producto</label>
+                    <input type="checkbox" placeholder="Avtivado" id="prodActiv"><br><br>
+                    <input type="checkbox" placeholder="Activado" id="prodActiv"><br><br>
+                    <input type="text" placeholder="Imagen Producto" id="imgProd">
+                    <button type="button" id="nuevo_prod">Ingresar</button>
+                    <button type="button" id="btnNuevoProd">Ingresar</button>
+                </form>
+            <div id="prodCtn">
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="../js/productos.js"></script>
+        <script src="../js/main.js"></script>         
+    </body>
+</html>
